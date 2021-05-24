@@ -56,7 +56,7 @@ client.on('ready', async()=>{
              reply(interaction,'pong called')
           }
         console.log(command)
-        console.log(option)
+        //console.log(option)
     })
 })
         const reply = (interaction,response) => {
