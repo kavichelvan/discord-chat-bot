@@ -1,3 +1,8 @@
 
 Discord bot Token: ODQ2MzAyMTkzMTQxNDE1OTY2.YKtiVg.lmdsls9bMoRtqDt-EAP-PLEu1KY
 Client ID:846302193141415966
+
+
+https://www.wikihow.com/Create-a-Bot-in-Discord
+
+https://discord.com/developers/applications/846302193141415966/bot
