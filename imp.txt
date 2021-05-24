@@ -1,5 +1,6 @@
 
-Discord bot Token: ODQ2MzAyMTkzMTQxNDE1OTY2.YKtiVg.lmdsls9bMoRtqDt-EAP-PLEu1KY
+Discord bot Token: ODQ2MzAyMTkzMTQxNDE1OTY2.YKtiVg.lmdsls9bMoRtqDt-EAP-PLEu1KY (old)
+                   ODQ2MzAyMTkzMTQxNDE1OTY2.YKtiVg.XjO9LY3zP02atz1EMZpRG9183w8 (new)
 Client ID:846302193141415966
 
 
