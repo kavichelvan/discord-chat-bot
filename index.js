@@ -26,22 +26,37 @@ client.on('ready', async()=>{
     await getApp(guildId).commands.post({
         data :{
             name: 'pong',
-            description: 'A simple pong',         
-        },
+            description: 'A simple pong',
+            option:[
+                {
+                    name: 'Name',
+                    description: 'Your name',
+                    required: true,
+                    type: 3 //string
+                },
+                {
+                    name: 'AGE',
+                    description: 'Your age',
+                    required: true,
+                    type: 4 //string 
+                }
+            ]         
+        }
     })
 
     client.ws.on ('INTERACTION_CREATE', async (interaction) => {
-        const {name} = interaction.data
+        const {name, option} = interaction.data
         const command = name.
         toLowerCase()
 
         if(command ==='ping'){
             reply(interaction,'ping called')
          }
-         if(command ==='pong'){
-            reply(interaction,'pong called')
-         }
+         else if(command ==='pong'){
+             reply(interaction,'pong called')
+          }
         console.log(command)
+        console.log(option)
     })
 })
         const reply = (interaction,response) => {
