@@ -1,9 +1,19 @@
 const DiscordJS = require('discord.js')
+const WOKCommands = require('wokcommands')
 require('dotenv').config()
 
 const guildId = '815798125495189505'
 const client = new DiscordJS.Client()
 
+client.on ('ready',() =>{
+
+    new WOKCommands(client,{
+        commandsDir: 'commands',
+        testServers:[guildId]    ,
+        showWarns: false    
+    })
+})
+/*
 const getApp = (guildId) =>{
     const app = client.api.applications(client.user.id)
     if(guildId){
@@ -70,4 +80,5 @@ client.on('ready', async()=>{
             })
         }
 
+        */
 client.login(process.env.TOKEN)
